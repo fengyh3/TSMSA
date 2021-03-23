@@ -18,5 +18,7 @@ Other package can use pip to install.
 2. the model you trained can be stored in output file.
 3. command of running (just like bert's):
 ```
-python MTTSMSA.py --do_train=true --do_predict=true --data_dir=./AOPE_data/19data/14lap --vocab_file=./bert_base/vocab.txt --bert_config_file=./bert_base/bert_config.json --init_checkpoint=./bert_base/bert_model.ckpt --max_seq_length=100 --train_batch_size=32 --learning_rate=5e-5 --num_train_epochs=3.0 --output_dir=./output
+python MTTSMSA.py --do_train=true --do_predict=true --data_dir=./AOPE_data/19data/14lap --vocab_file=./bert_base/vocab.txt
+--bert_config_file=./bert_base/bert_config.json --init_checkpoint=./bert_base/bert_model.ckpt --max_seq_length=100
+--train_batch_size=32 --learning_rate=5e-5 --num_train_epochs=3.0 --output_dir=./output
 ```
