@@ -1,7 +1,7 @@
 # TSMSA
 NAACL 2021 Accepted
 
-title: Target-specified Sequence Labeling with Multi-head Self-attention for Target-oriented OpinionWords Extraction
+Target-specified Sequence Labeling with Multi-head Self-attention for Target-oriented OpinionWords Extraction
 
 ## environment
 tensorflow 1.13
